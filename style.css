@@ -1,0 +1,71 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.card {
+  width: 550px;
+  padding: 12px;
+  margin: 35px auto;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  position: relative;
+}
+
+
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.likes {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.likes p {
+  margin: 18px;
+  background-color: aliceblue;
+  color: #000;
+  border-radius: 12px;
+  padding: 4px 8px;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 6px 12px;
+  width: 100%;
+  border-radius: 8px;
+  font-size: 16px;
+  margin: 4px;
+}
+
+#more {
+  display: none;
+}
+
+.more {
+  background-color: rgb(225, 255, 245);
+  padding: 0 12px;
+  margin: 12px;
+}
+
+.more h3 {
+  text-align: center;
+  background-color: blueviolet;
+  border-radius: 8px;
+  padding: 6px;
+  margin-top: 8px;
+  color: #fff;
+}
+
+.none {
+  display: none;
+  width: 145px;
+  margin-left: 280px;
+}
